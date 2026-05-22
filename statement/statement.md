@@ -122,26 +122,6 @@ K \times L \le N
 
 ## Explanation
 
-We have:
-
-```math
-A = [2, 1, 4, 3, 5]
-```
-
-We need to select:
-
-- $K = 2$ non-overlapping sessions,
-- each of length $L = 2$,
-- using at most $M = 1$ caffeine shot.
-
-For $L = 2$, the median is the
-
-```math
-\left\lfloor \frac{2+1}{2} \right\rfloor = 1
-```
-
-st smallest element, i.e. the minimum element of the session.
-
 If we apply one caffeine shot to the second hour ($A_2$), the array becomes:
 
 ```math
@@ -156,22 +136,10 @@ We choose:
 [10^9, 4]
 ```
 
-Its median is:
-
-```math
-\min(10^9, 4) = 4
-```
-
 - the second session starting at index $4$:
 
 ```math
 [3, 5]
-```
-
-Its median is:
-
-```math
-\min(3, 5) = 3
 ```
 
 Therefore, the overall efficiency is:
@@ -180,4 +148,4 @@ Therefore, the overall efficiency is:
 \min(4, 3) = 3
 ```
 
-No other valid configuration can achieve a higher minimum median.
+It can be proven that this configuration is optimal. 
