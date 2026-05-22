@@ -9,7 +9,7 @@ The finals week at IITK has arrived, and productivity in the hostel study rooms 
 
 The productivity throughout the week is represented by an array $A$ of $N$ integers, where $A_i$ denotes the productivity level during the $i$-th hour.
 
-As endsems approach, a group of students decides that carefully designing the perfect study plan is considerably more important than opening any actual course material. They decide that their study plan must consist of exactly $K$ non-overlapping study sessions, where each individual session must span exactly $L$ consecutive hours.
+As endsems approach, a group of students decided that carefully designing the perfect study plan is considerably more important than opening any actual course material. They decide that their study plan must consist of exactly $K$ non-overlapping study sessions, where each individual session must span exactly $L$ consecutive hours.
 
 The median productivity of a study session of length $L$ is defined as the element at position
 
