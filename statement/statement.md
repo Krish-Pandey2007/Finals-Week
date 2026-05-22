@@ -23,7 +23,17 @@ Fortunately, the students still have access to $M$ emergency caffeine shots. A s
 
 The overall efficiency of the study plan is defined as the minimum median productivity among all $K$ selected sessions. The K selected sessions should be contiguous and non overlapping.
 
-The students want to follow a schedule that maximizes this overall efficiency. They may use atmost M caffeine shots to attain this maximal efficiency. Because the students are master procrastinators, if there are multiple optimal schedules, they will always choose to delay their studying as much as possible. Formally, this means that amongst all sequences with the maximal efficiency, the chosen sequence is the lexicographically largest one when read from right to left. 
+The students want to follow a schedule that maximizes this overall efficiency. They may use at most $M$ caffeine shots to achieve this value.
+
+If multiple schedules attain the same overall efficiency, the students will always prefer the one that uses fewer caffeine shots.
+
+Since the students are master procrastinators, if multiple valid schedules still remain, they will postpone studying as much as possible.
+
+Formally, when comparing two schedules, the students prioritize the following criteria in order:
+
+1. A schedule with a higher overall efficiency is always preferred.
+2. If the overall efficiencies are equal, the schedule using fewer caffeine shots is preferred.
+3. If both of the above are also equal, the students — being master procrastinators — choose the schedule whose sequence of starting indices is lexicographically largest when read from right to left.
 
 
 Your task is to print the starting positions of the sessions that achieve the optimal schedule.
