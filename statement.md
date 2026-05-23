@@ -73,11 +73,7 @@ For each test case, output one line:
 ## Constraints
 
 ```math
-1 \le T \le 10
-```
-
-```math
-1 \le N \le 2 \times 10^4
+1 \le N \le 1 \times 10^5
 ```
 
 ```math
