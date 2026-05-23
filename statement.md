@@ -73,6 +73,10 @@ For each test case, output one line:
 ## Constraints
 
 ```math
+1 \le T \le 10^4
+```
+
+```math
 1 \le N \le 1 \times 10^5
 ```
 
@@ -96,7 +100,9 @@ K \times L \le N
 1 \le A_i \le 10^8
 ```
 
----
+```math
+\sum (N \times K) \le 2 \times 10^6
+```
 
 ## Sample Input
 
