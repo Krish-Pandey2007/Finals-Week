@@ -10,8 +10,8 @@ else:
     exe_prefix=""
 
 binaries = {
-    "optimal": "optimal.cpp",
-    "brute": "brute.cpp",
+    "optimal": "../src/optimal.cpp",
+    "brute": "../src/brute.cpp",
     "gen_small": "gen_small.cpp"
 }
 
