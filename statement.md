@@ -101,7 +101,7 @@ K \times L \le N
 ```
 
 ```math
-\sum (N \times K) \le 2 \times 10^6
+\text{The sum of } (N \times K) \text{ over all test cases does not exceed } 10^6
 ```
 
 ## Sample Input
