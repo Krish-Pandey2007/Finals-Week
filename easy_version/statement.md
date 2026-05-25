@@ -1,9 +1,11 @@
-# E. The Finals Week
+# E. The Finals Week- Easy Version  
 
 **Time Limit:** 3.0 seconds  
 **Memory Limit:** 256 megabytes  
 
 ## Problem Description
+
+The difference between this version and the hard version is that the constraints are smaller, and in the hard version you need to output the maximum possible overall efficiency, whereas in this version you must output the optimal schedule.  
 
 The finals week at IITK has arrived, and productivity in the hostel study rooms has become wildly inconsistent.
 
