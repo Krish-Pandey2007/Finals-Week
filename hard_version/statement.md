@@ -1,6 +1,6 @@
 # F. The Finals Week- Hard Version  
 
-**Time Limit:** 3.0 seconds  
+**Time Limit:** 5.0 seconds  
 **Memory Limit:** 256 megabytes  
 
 ## Problem Description
