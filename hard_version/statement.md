@@ -101,7 +101,7 @@ K \times L \le N
 ```
 
 ```math
-\text{The sum of } N \text{ over all test cases does not exceed } 5 \times 10^6
+\text{The sum of } N \text{ over all test cases does not exceed } 5 \times 10^5
 ```
 
 ## Sample Input
