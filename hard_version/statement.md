@@ -5,7 +5,7 @@
 
 ## Problem Description
 
-The difference between this version and the easy version is that the constraints are larger, and in the easy version you need to output the optimal schedule, whereas in this version you output the maximum possible overall efficiency.   
+The difference between this version and the easy version is that the constraints are larger, and in the easy version you need to output the optimal schedule, whereas in this version you must output the maximum possible overall efficiency.   
 
 The finals week at IITK has arrived, and productivity in the hostel study rooms has become wildly inconsistent.
 
@@ -38,7 +38,7 @@ Formally, when comparing two schedules, the students prioritize the following cr
 3. If both of the above are also equal, the students — being master procrastinators — choose the schedule whose sequence of starting indices is lexicographically largest when read from right to left.
 
 
-Your task is to print the starting positions of the sessions that achieve the optimal schedule.
+Your task is to print the maximum overall efficiency.  
 
 ---
 
@@ -73,15 +73,15 @@ For each test case, output one integer- the maximum possible overall efficiency.
 ## Constraints
 
 ```math
-1 \le T \le 10^4
+1 \le T \le 50
 ```
 
 ```math
-1 \le N \le 1 \times 10^5
+1 \le N \le 2 \times10^5
 ```
 
 ```math
-1 \le K \le 100
+1 \le K \le N
 ```
 
 ```math
@@ -101,7 +101,7 @@ K \times L \le N
 ```
 
 ```math
-\text{The sum of } (N \times K) \text{ over all test cases does not exceed } 10^6
+\text{The sum of } N \text{ over all test cases does not exceed } 5 \times 10^6
 ```
 
 ## Sample Input
