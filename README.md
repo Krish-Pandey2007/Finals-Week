@@ -13,4 +13,3 @@ https://polygon.codeforces.com/p8XKO57/SomewhatEvil/finals-week-hard-version - H
 
 Codeforces invitation- https://codeforces.com/contestInvitation/1341dcc25e4b837c4272d2efcc04a7f71ea16aa9
 
-Resoruce used for Lagrangian relaxation- https://usaco.guide/adv/lagrange 
