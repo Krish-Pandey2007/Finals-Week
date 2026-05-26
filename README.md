@@ -12,3 +12,5 @@ https://polygon.codeforces.com/p8XKO57/SomewhatEvil/finals-week-hard-version - H
 (Don't open this link directly, instead type it into search tab on polygon and you should be able to open it if you have read/write access)
 
 Codeforces invitation- https://codeforces.com/contestInvitation/1341dcc25e4b837c4272d2efcc04a7f71ea16aa9
+
+Resoruce used for Lagrangian relaxation- https://usaco.guide/adv/lagrange 
